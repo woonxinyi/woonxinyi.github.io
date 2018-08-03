@@ -72,6 +72,9 @@ input, select, textarea {
 	appearance: none;
 }
 
+.devicon-html5-plain-wordmark { display: inline-block; }
+.devicon-html5-plain-wordmark { display: inline-block; }
+
 /* Basic */
 
 	@-ms-viewport {
