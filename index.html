@@ -111,37 +111,34 @@
 				<a href="#work" class="button style2 down anchored">Next</a>
 			</section>
 <!-- Experience -->
-<head>
+
+
 <style>
-.row {
+.rowa {
   margin: 10px -16px;
 }
 
 /* Add padding BETWEEN each column */
-.row,
-.row > .column {
+.rowa,
+.rowa > .columna {
   padding: 8px;
 }
 
 /* Create three equal columns that floats next to each other */
-.column {
+.columna {
   float: left;
   width: 33.33%;
   display: none; /* Hide all elements by default */
 }
 
-/* Clear floats after rows */ 
-.row:after {
+/* Clear floats after rows */
+.rowa:after {
   content: "";
   display: table;
   clear: both;
 }
 
 /* Content */
-.content {
-  background-color: white;
-  padding: 10px;
-}
 
 /* The "show" class is added to the filtered elements */
 .show {
@@ -154,6 +151,7 @@
   outline: none;
   padding: 12px 16px;
   background-color: white;
+	color: black;
   cursor: pointer;
 }
 
@@ -166,86 +164,121 @@
   color: white;
 }
 </style>
-</head>
+
 <body>
 
 <!-- MAIN (Center website) -->
-<div class="main">
 
-<hr>
+<section id="work" class="main style3 primary">
+	<div class="content">
 
-<h2>INTEREST</h2>
+<h2>Experience</h2>
 
 <div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('nature')"> Nature</button>
-  <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-  <button class="btn" onclick="filterSelection('people')"> People</button>
+  <button class="btn active" onclick="filterSelection('all')"> All</button>
+  <button class="btn" onclick="filterSelection('nature')"> Event</button>
+  <button class="btn" onclick="filterSelection('cars')"> Competition</button>
+  <button class="btn" onclick="filterSelection('people')"> Project</button>
 </div>
 
 <!-- Portfolio Gallery Grid -->
-<div class="row">
-  <div class="column nature">
+<div class="rowa">
+  <div class="columna nature">
     <div class="content">
-      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
-      <h4>Mountains</h4>
-      <p>Lorem ipsum dolor..</p>
+      <img src="images/thumbs/09.jpg" alt="Mountains" style="width:100%">
+      <h4>Dodgeball</h4>
+      <p>DodgeKnight Team UTP</p>
     </div>
   </div>
-  <div class="column nature">
+  <div class="columna nature">
     <div class="content">
-    <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
-      <h4>Lights</h4>
-      <p>Lorem ipsum dolor..</p>
+    <img src="images/thumbs/04.jpg" alt="Lights" style="width:100%">
+      <h4>Outward Bound School</h4>
+      <p>Outbounder</p>
     </div>
   </div>
-  <div class="column nature">
+  <div class="columna nature">
     <div class="content">
-    <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+    <img src="images/thumbs/03.jpeg" alt="Nature" style="width:100%">
       <h4>Forest</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
   </div>
-  
-  <div class="column cars">
+
+<!--competition-->
+  <div class="columna cars">
     <div class="content">
-      <img src="/w3images/cars1.jpg" alt="Car" style="width:100%">
-      <h4>Retro</h4>
-      <p>Lorem ipsum dolor..</p>
+      <img src="images/thumbs/02.jpeg" alt="Car" style="width:100%">
+      <h4>Robocon Malaysia 2018</h4>
+      <p>Top 16 teams</p>
     </div>
   </div>
-  <div class="column cars">
+  <div class="columna cars">
     <div class="content">
-    <img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
-      <h4>Fast</h4>
-      <p>Lorem ipsum dolor..</p>
+    <img src="images/thumbs/03.jpeg" alt="Car" style="width:100%">
+      <h4>World Mandarin Debate</h4>
+      <p>First Runner Up </p>
     </div>
   </div>
-  <div class="column cars">
+  <div class="columna cars">
     <div class="content">
-    <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
-      <h4>Classic</h4>
-      <p>Lorem ipsum dolor..</p>
+    <img src="images/thumbs/05.jpeg" alt="Car" style="width:100%">
+      <h4>Pitch for Green</h4>
+      <p>Top 3 Best Team</p>
     </div>
   </div>
 
-  <div class="column people">
+	<div class="columna cars">
     <div class="content">
-      <img src="/w3images/people1.jpg" alt="Car" style="width:100%">
+    <img src="images/thumbs/06.jpeg" alt="Car" style="width:100%">
+      <h4>40th SEDEX</h4>
+      <p>Chairman + Bronze award</p>
+    </div>
+  </div>
+
+	<div class="columna cars">
+    <div class="content">
+    <img src="images/thumbs/07.png" alt="Car" style="width:100%">
+      <h4>NACES 2019</h4>
+      <p>Champion in Plant Design.</p>
+    </div>
+  </div>
+
+	<div class="columna cars">
+		<div class="content">
+		<img src="images/thumbs/10.jpg" alt="Car" style="width:100%">
+			<h4>IEM Plant Design Comp.</h4>
+			<p>Second-runner up</p>
+		</div>
+	</div>
+
+	<div class="columna cars">
+		<div class="content">
+		<img src="images/thumbs/11.jpg" alt="Car" style="width:100%">
+			<h4>42nd SEDEX</h4>
+			<p>Best Poster + Bronze award</p>
+		</div>
+	</div>
+
+
+<!--Project-->
+  <div class="columna people">
+    <div class="content">
+      <img src="images/thumbs/08.jpg" alt="Car" style="width:100%">
       <h4>Girl</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
   </div>
-  <div class="column people">
+  <div class="columna people">
     <div class="content">
-    <img src="/w3images/people2.jpg" alt="Car" style="width:100%">
+    <img src="images/thumbs/01.png" alt="Car" style="width:100%">
       <h4>Man</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
   </div>
-  <div class="column people">
+  <div class="columna people">
     <div class="content">
-    <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+    <img src="images/thumbs/03.jpeg" alt="Car" style="width:100%">
       <h4>Woman</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
@@ -255,12 +288,14 @@
 
 <!-- END MAIN -->
 </div>
+</div>
+</section>
 
 <script>
 filterSelection("all")
 function filterSelection(c) {
   var x, i;
-  x = document.getElementsByClassName("column");
+  x = document.getElementsByClassName("columna");
   if (c == "all") c = "";
   for (i = 0; i < x.length; i++) {
     w3RemoveClass(x[i], "show");
@@ -283,7 +318,7 @@ function w3RemoveClass(element, name) {
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
     while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
     }
   }
   element.className = arr1.join(" ");
@@ -303,6 +338,7 @@ for (var i = 0; i < btns.length; i++) {
 </script>
 
 </body>
+
 		<!-- Work -->
 			<section id="work" class="main style3 primary">
 				<div class="content">
@@ -394,7 +430,7 @@ for (var i = 0; i < btns.length; i++) {
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-		
+
 
 	</body>
 </html>
